@@ -1,4 +1,3 @@
-import os
 from flask import Flask, render_template, request, redirect
 from inference import get_prediction, format_class_name
 
